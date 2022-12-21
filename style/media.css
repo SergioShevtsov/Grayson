@@ -1,0 +1,139 @@
+@media(max-width:1200px) {
+    .comerce__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .custom__cards {
+        flex-wrap: wrap;
+        max-width: 550px;
+        margin: 20px auto;
+        gap: 20px;
+    }
+}
+
+@media(max-width:992px) {
+    .nav__item {
+        flex-direction: column;
+    }
+
+    .nav__item_link {
+        margin: 20px 0;
+        order: 1;
+    }
+
+    .nav__dropdown {
+        top: 35%;
+    }
+
+    .nav__form {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:768px) {
+    .footer__item {
+        text-align: center;
+        max-width: 600px;
+        flex-wrap: wrap;
+    }
+
+    .footer__item_block {
+        align-items: center;
+    }
+
+    .item__list {
+        align-items: center;
+    }
+
+    .header_content {
+        height: 600px;
+    }
+
+    .header_content_title {
+        font-size: 40px;
+
+    }
+
+    .header_content_text {
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    .collection {
+        text-align: center;
+    }
+}
+
+@media(max-width:576px) {
+    .nav__item_link {
+        gap: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav__list_link:nth-child(3) {
+        order: 1;
+    }
+
+    .nav__dropdown {
+        top: 73%;
+        left: 37%;
+        width: 130px;
+    }
+
+    .nav__dropdown_link a {
+        padding: 12px 0 12px 0;
+    }
+
+    .header_content_title {
+        font-size: 20px;
+    }
+
+    .header_content_btn {
+        padding: 15px 25px;
+    }
+
+    .header_content {
+        height: 500px;
+    }
+
+    .comerce__desc {
+        margin-top: 20px;
+    }
+
+    .comerce__desc_title,
+    .collection_item_title {
+        font-size: 38px;
+    }
+
+    .comerce__desc_text {
+        font-size: 15px;
+    }
+
+    .custom__cards,
+    .footer__item {
+        justify-content: center;
+    }
+
+    .custom__card {
+        text-align: center;
+    }
+
+    .custom__card_text {
+        margin-top: 20px;
+    }
+
+    .custom__card_span {
+        justify-content: center;
+        gap: 0;
+    }
+}
+
+@media(max-width:375px) {
+    .header__content_title {
+        font-size: 25px;
+    }
+}
